@@ -6,3 +6,12 @@ def generateDocument(chars, doc):
             return False
 
     return True
+
+    def countCharacterFrequency(character, target):
+        freq = 0
+        for char in target:
+             if char == character:
+                 freq += 1
+
+        return freq 
+         
